@@ -27,4 +27,7 @@ df.head(10)    # Muestra las primeras 10
 df.tail()      
 df.tail(3)
 
+<<<<<<< HEAD
 #commit tonto
+=======
+>>>>>>> creando_programa
