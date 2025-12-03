@@ -1,0 +1,30 @@
+Tenemos un archivo.csv de practica llamado Precipitaciones.csv que ocuparemos como
+primer dataframe hecho en python.
+
+
+#principal codigo para ver lo que es el dataframe
+
+import pandas as pd
+
+df = pd.DataFrame({ #recordar mayusculas en la D y F
+    "nombre": ["Ana", "Luis", "Carlos"],
+    "edad": [30, 25, 40]
+})
+
+print(df)
+
+#muestra los nombres junto a sus indices
+#muestra las edades (toda la columna)
+
+nombres_df = df.nombre
+edad_df = df.edad
+
+
+#df.head()      # Muestra las primeras 5 filas
+df.head(10)    # Muestra las primeras 10
+
+#ver las ultimas filas
+df.tail()      
+df.tail(3)
+
+#commit tonto
