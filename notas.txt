@@ -27,7 +27,6 @@ df.head(10)    # Muestra las primeras 10
 df.tail()      
 df.tail(3)
 
-<<<<<<< HEAD
-#commit tonto
-=======
->>>>>>> creando_programa
+
+#ahora que ya se como abrir un dataframe, es necesario saber tambine como rescatar las columnas recuerda tambien que tambien
+#aprendiste los comandos shape() y describe() y estan siendo i
